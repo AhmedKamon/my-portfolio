@@ -1,0 +1,24 @@
+
+.onHover::after{
+    content: '';
+    display: block;
+    width: 0;
+    height:3px;
+    background: aquamarine;
+    transition: width .5s;
+}
+.onHover:hover::after{
+width: 100%;
+transition: width .5s;
+}
+
+/* .onHover:hover{
+    border-bottom: 3px solid aquamarine;
+    /* box-shadow: 2px 2px 5px 0px gray; */
+    /* color: chartreuse;
+    
+} */ 
+
+.resume{
+    border: 2px solid aquamarine
+} 

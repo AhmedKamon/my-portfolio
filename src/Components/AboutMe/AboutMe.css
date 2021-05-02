@@ -1,0 +1,8 @@
+.about-cover{
+    background-image: url('../../images/about-cover.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-data{
+    background-color: rgba(255, 235, 205, 0.144);
+}

@@ -1,0 +1,20 @@
+.projectBG{
+    background-image: url('../../images/projectBG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.link{
+    text-decoration: none;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    transition-duration: .4s;
+}
+.link:hover{
+    background-color: aquamarine;
+    color: black;
+}

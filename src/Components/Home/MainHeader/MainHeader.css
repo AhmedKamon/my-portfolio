@@ -1,0 +1,47 @@
+.main-header{
+    background-image: url('../../../images/header-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.button {
+    transition-duration: 0.4s;
+    background-color: white;
+  color: black;
+  border: 2px solid aquamarine;
+  }
+  
+  .button:hover {
+    background-color: aquamarine; 
+    color: black;
+    box-shadow: 3px 5px 5px gray;
+  }
+ 
+  /* .line {
+    /* transform: translateY(-50%); */
+    /* white-space: nowrap; */
+/* } */
+
+/*Animation*/
+
+/* .anim-typewriter {
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+          width:0%;
+    }
+    to {
+         width: 100%;
+    }
+} */ 
+
+/* @keyframes blinkTextCursor {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+} */

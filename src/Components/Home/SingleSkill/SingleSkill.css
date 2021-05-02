@@ -1,0 +1,17 @@
+.skill-bg{
+    background-color: rgba(127, 255, 212, 0.062);
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+.skill-bg:hover{
+    box-shadow: 15px 15px 15px rgba(128, 128, 128, 0.397);
+}
+.skill-bg{
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.397);
+}
+.skill-img{
+    transition-duration: 0.4s; 
+}
+.skill-img:hover{
+    transform: scale(1.1);
+}
