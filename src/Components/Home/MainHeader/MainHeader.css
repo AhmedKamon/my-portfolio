@@ -15,6 +15,14 @@
     color: black;
     box-shadow: 3px 5px 5px gray;
   }
+  .tada-name{
+      cursor: pointer;
+      transition-duration: .4s;
+  }
+  .tada-name:hover{
+      letter-spacing: 10px;
+      
+  }
  
   /* .line {
     /* transform: translateY(-50%); */

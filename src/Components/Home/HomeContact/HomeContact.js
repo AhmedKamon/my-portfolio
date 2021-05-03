@@ -18,6 +18,7 @@ const sendEmail = (e) => {
 const HomeContact = () => {
     return (
         <div className='row  mt-5 pt-5 m-1'>
+             <h2 style={{fontWeight:'bold'}} className='text-center mt-5 mb-2 pb-3 mb-2 tada-name' >Contact Me</h2>
             <div className='col-md-6 mt-2 pt-2 pl-2'>
                 <h1 style={{fontWeight:'bold', color:'orange'}}>HELLO SIR,</h1>
                 <h2 style={{fontWeight:'bold'}}>LET ME KNOW WHAT YOU THINK,</h2>
