@@ -1,12 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './SingleProject.css'
 
 const SingleProject = ({ project }) => {
     console.log(project)
 
     return (
-        <div className='container projectBG mt-3' >
+        <div className='container projectBG mt-3 pt-5 shadow p-3 mb-5 bg-body rounded' >
             <h2 style={{fontWeight:'bold', color:"aquamarine", borderBottom:'2px solid aquamarine'}} className='text-center' > {project.tittle}</h2>
             <div className='row mt-5'>
                 <div className='col-md-6'>
