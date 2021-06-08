@@ -6,6 +6,7 @@ import dreamTeam from '../../images/deram-team.jpg'
 import htmlCss from '../../images/html-css.jpg'
 import SingleProject from '../SingleProject/SingleProject';
 import Navbar from '../Home/Navbar/Navbar'
+import redux from '../../images/redux.png'
 
 
 
@@ -19,6 +20,16 @@ const projectData = [
     serverCode: 'https://github.com/AhmedKamon/Gent-s-Parlour-server',
     clintCode: 'https://github.com/AhmedKamon/Gent-s-Parlour',
     liveSite: 'https://e-seloon.web.app/'
+  },
+  {
+    img: redux,
+    tittle: 'Dev Town',
+    description: 'React Redux Project',
+    fetchers: `  Learn more about your favourite Developer Create a Team with Pro developers Add developer in cart Add or Remove developer from cart price will be adjusted Created with React Redux
+    `,
+    serverCode: 'https://github.com/AhmedKamon/Dev-town',
+    clintCode: 'https://github.com/AhmedKamon/Dev-town',
+    liveSite: 'https://elegant-raman-ce9abf.netlify.app'
   },
   {
     img: foodValley,
